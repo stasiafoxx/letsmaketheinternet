@@ -1,0 +1,22 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat');
+
+.body {
+font-family: 'Montserrat', sans-serif;
+}
+
+/* JUMBO STYLES START */
+.jumbotron {
+  background-image: url(../img/woods.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+}
+
+.jumbotron>p {
+  color: #fff;
+  font-size: 2em;
+}
