@@ -1,12 +1,12 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat');
 
 .body {
-font-family: 'Montserrat', sans-serif;
+font-family: 'Dosis', sans-serif;
 }
 
 /* JUMBO STYLES START */
+
 .jumbotron {
   background-image: url(../img/woods.jpg);
   height: 600px;
@@ -17,6 +17,10 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron>p {
+  font-family: 'Dosis', sans-serif;
   color: #fff;
   font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
