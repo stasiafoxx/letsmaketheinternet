@@ -10,26 +10,26 @@ font-family: 'Dosis', sans-serif;
 #hero {
   position: static;
   margin: 0;
-  background-image: url('../img/woods.jpg');
+  background-image: url('../img/lake.jpg');
   background-size: cover;
   background-position: center;
-  padding: 250px 150px;
+  padding: 300px 150px;
   height: 100%;
 }
 
-.review-box {
+.hero-box {
   font-family: 'Dosis', sans-serif;
-  background-color: rgba(0,0,0,.6);
+  /* background-color: rgba(0,0,0,.1); */
   border-radius: 6px;
   color: #fff;
 }
 
-.review-box h1 {
+.hero-box h1 {
   text-shadow: 1px 1px 2px;
   font-size: 5.5em;
 }
 
-.review-box p {
+.hero-box p {
   font-size: 32px;
 }
 
@@ -38,4 +38,14 @@ font-family: 'Dosis', sans-serif;
 .border {
   padding-bottom: 2px;
   text-decoration: underline;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+/* SERVICES STYLE STARTS */
+.services {
+  background-color: #F4EFEE;
+  height: 500px;
 }
