@@ -5,22 +5,37 @@
 font-family: 'Dosis', sans-serif;
 }
 
-/* JUMBO STYLES START */
+/* HERO STYLES START */
 
-.jumbotron {
-  background-image: url(../img/woods.jpg);
-  height: 600px;
-  background-position: center;
+#hero {
+  position: static;
+  margin: 0;
+  background-image: url('../img/woods.jpg');
   background-size: cover;
-  opacity: 0.8;
-  filter: alpha(opacity=40);
+  background-position: center;
+  padding: 250px 150px;
+  height: 100%;
 }
 
-.jumbotron>p {
+.review-box {
   font-family: 'Dosis', sans-serif;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 6px;
   color: #fff;
-  font-size: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.review-box h1 {
+  text-shadow: 1px 1px 2px;
+  font-size: 5.5em;
+}
+
+.review-box p {
+  font-size: 32px;
+}
+
+
+/* ABOUT ME STYLES START */
+.border {
+  padding-bottom: 2px;
+  text-decoration: underline;
 }
