@@ -1,5 +1,6 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
 
 .body {
 font-family: 'Dosis', sans-serif;
@@ -11,8 +12,8 @@ font-family: 'Dosis', sans-serif;
   position: static;
   margin: 0;
   background-image: url('../img/lake.jpg');
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
   padding: 300px 150px;
   height: 100%;
 }
@@ -30,22 +31,34 @@ font-family: 'Dosis', sans-serif;
 .hero-box p {
   font-size: 32px;
 }
+/* HERO STYLES END */
 
+/* NAVBAR STYLES START */
+.navbar-nav>li>a {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  color: #000;
+}
+
+/* NAVBAR STYLES END */
 
 /* ABOUT ME STYLES START */
 .border {
-  margin-bottom: 50px;
-  /* margin-right: 300px; */
+  /* margin-bottom: 50px; */
+  padding-right: 200px;
   text-decoration: underline;
 }
 
 .container {
   margin-bottom: 80px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-
+/* .img-circle {
+  padding: 10%;
+} */
 /* SERVICES STYLE STARTS */
 .services {
+  font-family: 'Montserrat', sans-serif;
   background-color: #F4EFEE;
   height: 500px;
 }
