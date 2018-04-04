@@ -50,7 +50,7 @@ font-family: 'Dosis', sans-serif;
   display:block;
   border-color: #000;
 }
-.container {
+.about {
   margin-bottom: 80px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -69,21 +69,32 @@ font-family: 'Dosis', sans-serif;
   background-color: #F4EFEE;
   height: 500px;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
-.text-uppercase {
-  padding-bottom: 100px;
+.service-head {
+  padding-bottom: 70px;
 }
 
-.fa-code {
+.fas {
   font-size: 100px;
 }
-.fa-desktop {
+
+.fa-html5 {
   font-size: 100px;
+  padding-top: -50px;
 }
+
 /* SERVICES STYLES SECTION ENDS */
 
 /* PORTFOLIO STYLES SECTION STARTS */
+.portfolio {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  height: 550px;
+}
+
+/* CONTACT STYLES SECTION STARTS */
 .contact {
   font-family: 'Montserrat', sans-serif;
   background-color: #F4EFEE;
@@ -94,6 +105,11 @@ font-family: 'Dosis', sans-serif;
 .message {
   text-align: center;
 }
-/* PORTFOLIO STYLES SECTION ENDS */
+/* CONTACT STYLES SECTION ENDS */
 
 /* MAP STYLES SECTION BEGINS */
+.map {
+  height: 500px;
+  width: 100%;
+  margin: 0;
+}
