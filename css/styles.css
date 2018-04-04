@@ -4,6 +4,7 @@
 
 .body {
 font-family: 'Dosis', sans-serif;
+position: relative;
 }
 
 /* HERO STYLES START */
@@ -62,7 +63,13 @@ font-family: 'Dosis', sans-serif;
   font-size: 50px;
   padding: 10px;
 }
+a {
+  color: #333;
+}
 
+a :hover {
+  color: #555;
+}
 /* SERVICES STYLE STARTS */
 .services {
   font-family: 'Montserrat', sans-serif;
