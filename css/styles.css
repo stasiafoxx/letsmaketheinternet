@@ -135,8 +135,30 @@ a :hover {
   font-size: 30px;
 }
 
-@media screen and (max-width: 992px) {
-  .hero-box h1 {
-    font-size: 2.5em;
+@media screen and (max-width: 750px) {
+  #hero {
+    padding: 100px 75px;
+  }
+  .hero-box {
+    font-size: 10px;
+    /* padding: inherit; */
+  }
+  .portfolio {
+    height: auto;
+  }
+  .img-circle {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .services {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .contact {
+    height: auto;
   }
 }
