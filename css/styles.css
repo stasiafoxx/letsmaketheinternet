@@ -58,10 +58,13 @@ position: relative;
 .social {
   padding-bottom: 20px;
 }
-/* Social Media Styles Start*/
+/*ABOUT ME STYLES END  */
+
+/* SOCIAL MEDIA STYLES START*/
 .fab {
   font-size: 50px;
   padding: 10px;
+  margin-top: -20px;
 }
 a {
   color: #333;
@@ -70,6 +73,8 @@ a {
 a :hover {
   color: #555;
 }
+/*SOCIAL MEDIA STYLES END  */
+
 /* SERVICES STYLE STARTS */
 .services {
   font-family: 'Montserrat', sans-serif;
@@ -89,7 +94,7 @@ a :hover {
 
 .fa-html5 {
   font-size: 100px;
-  padding-top: -50px;
+  /* padding-top: -50px; */
 }
 
 /* SERVICES STYLES SECTION ENDS */
@@ -100,6 +105,7 @@ a :hover {
   font-family: 'Montserrat', sans-serif;
   height: 550px;
 }
+/* PORTFOLIO STYLES SECTION ENDS */
 
 /* CONTACT STYLES SECTION STARTS */
 .contact {
@@ -114,6 +120,7 @@ a :hover {
 }
 /* CONTACT STYLES SECTION ENDS */
 
+
 /* MAP STYLES SECTION BEGINS */
 .map {
   position: relative;
@@ -122,6 +129,7 @@ a :hover {
   margin: 0;
 }
 /* MAP STYLES SECTION ENDS */
+
 
 /* COPYRIGHT STYLES */
 .footer {
@@ -134,7 +142,10 @@ a :hover {
 .fa-copyright {
   font-size: 30px;
 }
+/* END COPYRIGHT STYLES */
 
+
+/* BEGIN MEDIA QUERIES */
 @media screen and (max-width: 750px) {
   #hero {
     padding: 100px 75px;
