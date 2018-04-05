@@ -116,7 +116,27 @@ a :hover {
 
 /* MAP STYLES SECTION BEGINS */
 .map {
+  position: relative;
   height: 500px;
   width: 100%;
   margin: 0;
+}
+/* MAP STYLES SECTION ENDS */
+
+/* COPYRIGHT STYLES */
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.fa-copyright {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-box h1 {
+    font-size: 2.5em;
+  }
 }
