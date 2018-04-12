@@ -159,6 +159,7 @@ a :hover {
   }
   .img-circle {
     height: auto;
+    display: none;
   }
 }
 
@@ -166,9 +167,6 @@ a :hover {
   .services {
     height: auto;
   }
-}
-
-@media screen and (max-width: 770px) {
   .contact {
     height: auto;
   }
