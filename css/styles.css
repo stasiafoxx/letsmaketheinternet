@@ -149,6 +149,7 @@ a :hover {
 @media screen and (max-width: 750px) {
   #hero {
     padding: 100px 75px;
+    height:auto;
   }
   .hero-box {
     font-size: 10px;
