@@ -146,13 +146,13 @@ a :hover {
 
 
 /* BEGIN MEDIA QUERIES */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
   #hero {
     background-image: url('../img/mobile.jpg');
     background-attachment: fixed;
     background-size: cover;
-    /* padding: 100px 75px;
-    height:auto; */
+    padding: 100px 75px;
+    height:auto;
   }
   .hero-box {
     font-size: 10px;
