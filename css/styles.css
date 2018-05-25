@@ -148,7 +148,7 @@ a :hover {
 /* BEGIN MEDIA QUERIES */
 @media screen and (max-width: 750px) {
   #hero {
-    background-image: url('../img/mobile.jpg');
+    background-image: url('../img/lake.jpg');
     background-attachment: scroll;
     background-size: cover;
     padding: 100px 75px;
