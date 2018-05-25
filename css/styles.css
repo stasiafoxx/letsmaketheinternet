@@ -149,7 +149,7 @@ a :hover {
 @media screen and (max-width: 750px) {
   #hero {
     background-image: url('../img/mobile.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     padding: 100px 75px;
     height:auto;
