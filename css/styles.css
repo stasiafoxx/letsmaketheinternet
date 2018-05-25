@@ -146,7 +146,7 @@ a :hover {
 
 
 /* BEGIN MEDIA QUERIES */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   #hero {
     background-image: url('../img/mobile.jpg');
     background-attachment: fixed;
